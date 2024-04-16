@@ -1,1 +1,8 @@
+.conteudo-titulo{
+    /* Código omitido */
+}
+
+.conteudo-senha{
+    background: var(--fundo-senha);
+}
 
