@@ -11,20 +11,29 @@
   --font-style: normal;
     }
 }
+
 * font-weight: 400;
 body{
     color:var(--preto);
     background-color: var(--cor-de-fundo);
     font-family:var(Playfair Display);
 }
+
 .titulo-principal{
     font-family: var(--Playfair-Display);
     font-size: 33px;
 }
+
 .titulo-secundario{
     font-size: 25px;
 }
+
 .conteudo-titulo{ 
     text-align: center;
     margin-top: 80px;
+}
+.conteudo-senha{
+    background: var(--fundo-senha);
+    padding: 25px;
+    border-bottom: 6px solid var(--borda);
 }
