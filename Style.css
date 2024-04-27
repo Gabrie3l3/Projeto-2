@@ -37,3 +37,13 @@ body{
     padding: 25px;
     border-bottom: 6px solid var(--borda);
 }
+#campo-senha {
+    background-color: var(--fundo-senha);
+    border: none;
+    color: var(--preto);
+    font-family: var(--Playfair-Display);
+    font-size: 40px;
+}
+#campo-senha:focus {
+    outline:nome;
+}
