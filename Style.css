@@ -103,6 +103,9 @@ justify-content:center;
     margin:0;
     font-size:24px;
 }
+    label{
+    font-size: 20px;
+    }
     
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha{
