@@ -11,6 +11,7 @@
   --font-style: normal;
     }
 }
+* font-weight: 400;
 body{
     color:var(--preto);
     background-color: var(--cor-de-fundo);
@@ -18,5 +19,12 @@ body{
 }
 .titulo-principal{
     font-family: var(--Playfair-Display);
-    font-size: 32px;
+    font-size: 33px;
+}
+.titulo-secundario{
+    font-size: 25px;
+}
+.conteudo-titulo{ 
+    text-align: center;
+    margin-top: 80px;
 }
