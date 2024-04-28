@@ -60,7 +60,18 @@ function geraSenha(){
     }
     campoSenha.value = senha;
 }
-
+function classificaSenha(tamanhoAlfaveto) {
+    let entropia = tamanhoSenha * Math.log2(alfabeto.length);
+    forcaSenha.classList.remove('fraca','media,'forte');
+ console.log(entropia);
+ if (entropia > 57){
+    forcaSenha.classList.add('forte');
+} else if (entropia > 35 && entropia < 57) {
+    forcaSenha.classList.add('media');
+} else if (entropia <= 35){
+    forcaSenha.classList.add('fraca');
+ }
+ 
 
 
 
