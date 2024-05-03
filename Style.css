@@ -1,22 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
-
 :root{
-    --branco: white;
-    --cor-de-fundo:#9C19EO;
-    --fundo-senha:#000D6B;
-    --fundo-texto:#FF5DA2;
-    --borda: #99DDCC;
-    --roboto:'Roboto', sans-serif;
-    --roboto-mono:'Roboto Mono', monospace;
-    
-}
+       --branco: white;
+       --cor-de-fundo:#eb9cff;
+       --fundo-senha:#edb8fa;
+       --fundo-texto:#ff9c9c;
+       --borda: #ff6565;
+       --roboto:'Roboto', sans-serif;
+       --roboto-mono:'Roboto Mono', monospace;
+    }
 
 {
     font-weight: 400;
-}
-#FD6C9E;
+      }
+
 body{
-    color: var(--preto);
+    color: var(--branco);
     background-color: var(--cor-de-fundo);
     font-family: var(--roboto);
 }
@@ -24,17 +22,16 @@ body{
 .titulo-principal{
     font-family: var(--roboto-mono);
     font-size: 32px;
-}
+     }
 
 .titulo-secundario{
     font-size: 24px;
-
 }
 
 .conteudo-titulo{
     text-align: center;
     margin-top: 80px;
-}
+     }
 
 .conteudo-senha{
     margin-top: 80px; 
@@ -94,10 +91,10 @@ body{
 
 .parametro-senha__botao{
     background-color: var(--fundo-texto);
-    color: var(--prata);
+    color: var(--branco);
     border: 2px solid var(--borda);
-    padding: 25px;
-    font-size: 25px;
+    padding: 24px;
+    font-size: 24px;
     cursor: pointer;
 }
 .parametro-senha__texto{
@@ -127,28 +124,28 @@ label{
     height: 30px;
     position: relative;
     bottom: 30px;
-}
+    } 
 .fraca{
     width: 25%;
-    background-color: ; #f07886
+    background-color: #EB3391; 
 }
 .media{
-    background-color: ;#120109
+    background-color: #E9A3C4;
     width: 50%;
-}
+    }
 .forte{
-    background-color: #ed85d5;
+    background-color: #DEC9D6;
     width: 100%;
 }
 
 .parametro-senha-textos{
     display: flex;
     justify-content: space-between;
-}
+
 
 
 @media screen and (min-width: 768px) {
     .parametro-coluna__senha{
         flex-direction: row;
+  }
     }
-}
